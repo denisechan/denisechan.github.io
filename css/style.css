@@ -2,7 +2,13 @@
 	background-color: #085394;
 
 }
+
+#log {
+	margin-top: 100px;
+}
+
 #log h1 {
 	padding-bottom: 50px;
+	color: #fff;
 
 }
