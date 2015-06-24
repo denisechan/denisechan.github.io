@@ -1,0 +1,133 @@
+.page.home { padding: 0; }
+.page.home > .content { height: 100%; }
+.page.home > .content > .logo {
+	position: relative;
+	width: 100%; height: 10%;
+	text-align: center;
+}
+.page.home > .content > .logo > img {
+	position: relative;
+	width: 180px; height: 100%;
+	outline: 1px solid black;
+	top: -15px;
+	font-size: 80px;
+	text-align: center;
+}
+.grid {
+	width: 51vh;
+	height: 68vh;
+	outline: 1px solid black;
+	margin: 0 auto 0 auto;
+}
+.grid > .row {
+	height: 25%;
+}
+.grid > .row > .item {
+	position: relative;
+	width: 33.3333%; height: 100%;
+	display: inline-block;
+}
+.grid > .row > .item > a {
+	position: absolute; 
+	width: 96%; height: 96%; margin: 2%;
+	background-color: #ffffff;
+}
+
+.field > button.remove {
+	position: absolute; width: 30px; height: 30px; line-height: 30px; text-align: center;
+	border: 0; background-color: #000000; color: #ffffff;
+	top: 0; right: -30px; padding: 0; margin: 0;
+}
+.field > button.remove.disabled {
+	background-color: #aaaaaa;
+	color: #ffffff;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.split > .pane { opacity: 0.8; }
+.split.left > .pane.left,
+.split.right > .pane.right,
+.split > .pane:hover { opacity: 1 !important; }
+.split > .manager { background-color: #666666; /*#489feb*/; }
+.split > .user { background-color: #888888; /*#32e478*/; }
+
+.split > .pane > .title {
+	display: block;
+	position: absolute;
+	width: 100%; height: 100%;
+}
+.split > .pane > .title > h1 {
+	position: absolute;
+	left: 50%; top: 50%;
+	width: 100px; height: 77px;
+	margin-left: -50px; margin-top: -30px;
+	
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	-webkit-transform: scale(1, 1.6);
+	-moz-transform: scale(1, 1.6);
+	-ms-transform: scale(1, 1.6);
+	-o-transform: scale(1, 1.6);
+	transform: scale(1, 1.6);
+}
+.split > .manager > .title > h1 { 
+	margin-top: -42px;
+}
+
+.split > .pane a {
+	text-shadow: none;
+}
+
+.split > .pane > .content { 
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	overflow-y: auto;
+}
+.split > .pane > .content > .center {
+	display: inline-block;
+	vertical-align: middle;
+}
+.split > .pane > .content > .center > h1 {
+	font-size: 300%; margin-bottom: 20px;
+}
+.split > .pane > .content > .center .major-link {
+	display: block;
+	height: 50px; line-height: 50px;
+	font-size: 190%;
+	margin-bottom: 15px;
+}
+.split > .pane > .content > .center > .lineups {
+	max-height: 200px;
+	overflow-y: auto;
+}
+.split > .pane > .content > .center > .lineups > .lineup {
+	position: relative;
+	display: block;
+	width: 100%; height: 40px; margin: 5px 0;
+}
+.split > .pane > .content > .center > .lineups > .lineup > a {
+	position: absolute;
+	display: block;
+	width: 100%; height: 40px; left: 0; top: 0;
+	line-height: 40px;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 150%;
+	color: #000000;
+}
+
+.split > .user > .content > .center > .join-line {
+	background-color: #5ecaff;
+	color: #ffffff;
+}
+.split > .user > .content > .center > p {
+}
+
+.split > .manager > .content > .center > .new-line {
+	background-color: #ca5eff;
+	color: #ffffff;
+}

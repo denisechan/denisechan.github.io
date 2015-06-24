@@ -1,0 +1,50 @@
+.page.lineup > .content {
+	max-width: 600px; height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.page.lineup > .content > .search {
+	position: absolute; 
+	width: 100%;
+	top: 0; left: 0;
+}
+.page.lineup > .content > .scroll {
+	box-sizing: border-box;
+	width: 100%; height: 100%;
+	border-top: 45px solid rgba(0, 0, 0, 0);
+}
+ul.lineups > li.lineup {
+	position: relative;
+	display: block;
+	width: 100%; height: 80px;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin: 10px 0;
+	color: #000000;
+	text-align: center;
+}
+ul.lineups > li.lineup > a  {
+	position: absolute;
+	width: 100%; height: 100%; left: 0; top: 0;
+	margin: 0; padding: 0;
+	color: #000000;
+}
+ul.lineups > li.lineup > a > .name {
+	display: inline-block; vertical-align: middle;
+	font-size: 30px;
+}
+ul.lineups > li.lineup > a:hover {
+	background-color: #8888ff;
+}
+/*ul.lineups > li.lineup {
+	position: absolute;
+	left: 0; bottom: 0;
+	text-align: left;
+	height: 26px;
+}
+ul.lineups > li.lineup > .controls > .control {
+	width: 100px; height: 20px;
+	padding: 3px;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+}*/

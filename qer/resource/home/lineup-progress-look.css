@@ -1,0 +1,66 @@
+.page.lineup-progress { padding: 0; }
+.page.lineup-progress > .content {
+	background: url("../_img/ticket.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 111%; margin: 0 auto;
+	top: -7.5%;
+}
+.page.lineup-progress > .content > .ticket-body {
+	display: inline-block; vertical-align: middle;
+	width: 100%;
+	padding-top: 25px;
+	text-align: center;
+	color: #000000;
+}
+
+.page.lineup-progress > .content > .ticket-body > h1 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+.page.lineup-progress > .content > .ticket-body > .processed {
+	display: none;
+}
+.page.lineup-progress > .content > .ticket-body.processed > .processed {
+	display: block;
+}
+.page.lineup-progress > .content > .ticket-body.processed > .unprocessed {
+	display: none;
+}
+
+.page.lineup-progress > .content > .ticket-body .item {
+	margin-bottom: 10px;
+}
+.page.lineup-progress > .content > .ticket-body .item.wait-number {
+	font-size: 500%;
+}
+
+.page.lineup-progress > .content > .ticket-body > .processed a.continue {
+	display: inline-block;
+	background-color: #dae84e;
+	width: 150px; height: 50px; line-height: 50px;
+	font-size: 150%;
+	
+	color: #000000;
+	text-shadow: none;
+}
+
+.page.lineup-progress > .lineup-controls {
+	position: absolute;
+	width: 100%; height: 30px;
+	left: 0; bottom: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+.page.lineup-progress > .lineup-controls > .control {
+	box-sizing: border-box;
+	width: 110px; height: 30px; line-height: 30px;
+	color: #ffffff;
+	text-align: center;
+}
+.page.lineup-progress > .lineup-controls > .control:hover {
+	background-color: #000000;
+	box-shadow: inset 0 0 2px 0 #ffffff;;
+}

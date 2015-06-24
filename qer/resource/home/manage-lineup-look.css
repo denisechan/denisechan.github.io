@@ -1,0 +1,69 @@
+.page.manage-lineup {}
+.page.manage-lineup > .content {
+	box-sizing: border-box;
+	width: 60%;
+	min-width: 300px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+.page.manage-lineup > .content > h1 {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.page.manage-lineup > .content > .lineup-data {
+	margin-bottom: 20px;
+}
+.page.manage-lineup > .content > .lineup-data > .data {
+	margin-bottom: 10px;
+}
+.page.manage-lineup > .content > .lineup-data > .data > label {
+	display: inline-block;
+	width: 74px;
+	font-weight: bold;
+}
+.page.manage-lineup > .content > .users-data {
+	height: 250px;
+	overflow-y: auto;
+}
+.page.manage-lineup > .content > .users-data > .users {
+	position: relative; width: 100%;
+}
+.page.manage-lineup > .content > .users-data > .users > .user {
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	margin: 5px 0;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.page.manage-lineup > .content > .users-data > .users > .user > .data {
+	margin-left: 5px; padding: 0;
+	height: 30px; line-height: 30px;
+	white-space: nowrap;
+	font-size: 120%;
+}
+.page.manage-lineup > .content > .users-data > .users > .user > .data > label {
+	display: inline-block; vertical-align: top;
+	width: 120px;
+}
+.page.manage-lineup > .content > .users-data > .users > .user > .data > span {
+	display: inline-block; vertical-align: top;
+}
+.page.manage-lineup > .content > .users-data > .users > .user > .data.username > span {
+	font-weight: bold;
+}
+.page.manage-lineup > .content > .users-data > .users > .user > a.process {
+	position: absolute; 
+	box-sizing: border-box;
+	width: 100px; height: 50px; 
+	right: 5px; top: 5px;
+	background-color: #ca8eff;
+	text-shadow: none;
+	color: #ffffff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 130%;
+}
